@@ -1,6 +1,11 @@
+@font-face {
+    font-family: 'nunito';
+    src: url(nunito.ttf);
+}
+
 body {
-    background: rgb(25, 104, 68);
-    font: normal 15pt Arial;
+    background: rgb(104, 25, 54);
+    font: normal 15pt 'nunito';
 }
 
 header {
@@ -13,9 +18,36 @@ section {
     background: white;
     border-radius: 10px;
     padding: 15px;
-    width: 500px;
+    width: 365px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.335);
+}
+
+#txtn {
+    font: normal 10pt 'nunito';
+    height: 20px;
+    padding-left: 6px;
+}
+
+#gerar {
+    margin-left: 10px;
+    border: none;
+    color: whitesmoke;
+    background-color: rgb(104, 25, 54);
+    cursor: pointer;
+    height: 30px;
+    border-radius: 5px;
+    font: bold 10pt 'nunito';
+}
+
+#gerar:hover {
+    background-color: rgb(40, 9, 21);
+}
+
+#res {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer {
